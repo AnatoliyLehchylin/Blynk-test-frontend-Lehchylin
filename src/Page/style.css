@@ -3,6 +3,8 @@
 }
 
 .aside {
+    width: 16%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0 15px;
@@ -26,7 +28,7 @@
 .content-wrapper {
     display: flex;
     width: 100%;
-    margin: 0 15px;
+    margin: 20px 15px;
 }
 
 .content-title {
@@ -37,13 +39,14 @@
 }
 
 .items-wrapper {
+    height: min-content;
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 10px;
+    margin: 10px 20px 10px 80px;
     padding: 12px;
     background-color: #f9f9f9;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
 }
 
 .form-wrapper {
@@ -53,7 +56,7 @@
 }
 
 .input {
-    width: 80%;
+    width: 70%;
     font-size: 16px;
     margin: 0 10px;
     padding: 6px 12px;
@@ -76,13 +79,14 @@
 }
 
 .comments-wrapper {
+    height: min-content;
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 10px;
+    margin: 10px 60px 10px 20px;
     padding: 12px;
     background-color: #f9f9f9;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
 }
 
 .element-wrapper {
@@ -116,7 +120,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 440px;
+    right: 140px;
     bottom: 22px;
     width: 20px;
     height: 18px;
@@ -129,7 +133,7 @@
 
 .comment-wrapper {
     display: flex;
-    margin-bottom: 12px;
+    margin: 0 18px 12px;
 }
 
 .button-comment {
@@ -143,11 +147,10 @@
 .button-comment:hover {
     background-color: #215085;
     border-color: #215085;
-
 }
 
 .input-comment {
-    width: 65%;
+    width: 54%;
 }
 
 .input-color {
