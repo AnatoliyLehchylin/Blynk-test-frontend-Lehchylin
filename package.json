@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "vite build && vite gh-pages"
+    "deploy": "vite build && vite build --base ."
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -24,6 +24,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5",
-    "vite-plugin-gh-pages": "^0.4.1"
+    "vite-plugin-gh-pages": "^0.4.1",
+    "vite-plugin-legacy": "^2.1.0"
   }
 }

@@ -8,16 +8,20 @@
 
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { VitePluginGhPages } from 'vite-plugin-gh-pages';
+import VitePluginGhPages from 'vite-plugin-gh-pages';
 
 export default defineConfig({
   plugins: [
     react(),
-    VitePluginGhPages({
-      build: {
-        // Дополнительные настройки сборки, если необходимо
-      },
-    }),
+    VitePluginGhPages(),
   ],
   // Другие настройки Vite...
+
+  build: {
+    target: 'modules',
+    outDir: 'dist',
+  },
 });
+
+
+
