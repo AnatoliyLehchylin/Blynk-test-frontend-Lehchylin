@@ -95,7 +95,7 @@ function DayryApp() {
     return (
         <div className="wrapper">
             <div className="aside">
-                <h2 className="aside-title">DAYRY APP</h2>
+                <h2 className="aside-title">DAYRY APP TEST</h2>
                 <p className="aside-text">Comment with no sense</p>
             </div>
             <div className="content-wrapper">
